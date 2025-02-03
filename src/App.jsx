@@ -1,9 +1,9 @@
 
 
 import './App.css'
+import NavBar from './components/NavBar/Navbar'
 import Footer from './components/Footer/Footer'
 import Fruits from './components/Fruits/Fruits'
-import NavBar from './components/NavBar/Navbar'
 
 function App() {
   const fruits = [
