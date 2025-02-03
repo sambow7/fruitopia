@@ -1,3 +1,4 @@
+
 /*
 	•	🍓 Strawberry Red: #ff6384 (Primary color)
 	•	🍃 Leaf Green: #77dd77 (Accent color)
@@ -5,7 +6,6 @@
 	•	🌸 Soft Pink: #ffc2d1 (Secondary background or button hover)
 	•	🍫 Chocolate Brown: #663300 (Text or borders)
 */
-
 /* Strawberry Theme Styles */
 body {
   font-family: 'Arial', sans-serif;
@@ -47,25 +47,4 @@ button li button {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  background-color: #fff; /* White */
-  border: 1px solid #ffc2d1; /* Soft Pink border */
-  border-radius: 8px;
-  padding: 10px 15px;
-  margin: 10px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-li strong {
-  color: #77dd77; /* Leaf Green */
 }

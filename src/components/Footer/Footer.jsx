@@ -1,12 +1,14 @@
 import React from 'react'
-import './Footer.component.css'
-
+import "./Footer.css"
 function Footer() {
-  return (
-    <footer>
-       Made with ❤️ by <a href="https://github.com/Avisa-GA">Avisa</a>
-     </footer>
-  )
+    return (
+        <footer>
+            <p>Made with ❤️ by <a href="https://github.com/Avisa-GA">Avisa</a></p>
+        </footer>
+    )
 }
 
 export default Footer
+
+
+

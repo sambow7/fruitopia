@@ -1,8 +1,9 @@
-import React from 'react'
+
+
 import './App.css'
-import Fruits from './components/Fruits/Fruits'
-import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+import Fruits from './components/Fruits/Fruits'
+import NavBar from './components/NavBar/Navbar'
 
 function App() {
   const fruits = [
@@ -22,12 +23,11 @@ function App() {
 
   return (
     <>
-    <Navbar />
-    <Fruits frutis={fruits} />
-    <Footer />
+      <NavBar />
+      <Fruits fruits={fruits} />
+      <Footer />
     </>
   )
 }
-
 
 export default App
